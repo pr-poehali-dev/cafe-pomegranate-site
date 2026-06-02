@@ -78,11 +78,10 @@ export default function Index() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b shadow-sm" style={{ borderColor: "hsl(35, 25%, 85%)" }}>
         <div className="max-w-6xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img
-              src="https://cdn.poehali.dev/projects/5f2a3daf-7537-4d09-ac43-1e03a1ff4102/bucket/8a60cd3a-241e-4ed6-842e-549324275849.jpeg"
-              alt="Столовая Гранат"
-              className="h-10 w-auto object-contain"
-            />
+            <span className="text-2xl">🍽️</span>
+            <span className="font-bold text-xl" style={{ color: "hsl(350, 65%, 38%)", fontFamily: "'Cormorant', serif" }}>
+              Столовая Гранат
+            </span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -149,12 +148,12 @@ export default function Index() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-8 pt-20 pb-32">
           <div className="max-w-2xl">
-            <img
-              src="https://cdn.poehali.dev/projects/5f2a3daf-7537-4d09-ac43-1e03a1ff4102/bucket/8a60cd3a-241e-4ed6-842e-549324275849.jpeg"
-              alt="Столовая Гранат"
-              className="h-28 w-auto object-contain mb-4"
-              style={{ filter: "brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0,0,0,0.4))" }}
-            />
+            <p
+              className="text-sm uppercase tracking-widest mb-4"
+              style={{ fontFamily: "'Golos Text', sans-serif", color: "hsl(28, 85%, 70%)" }}
+            >
+              Домашняя кухня с 2010 года
+            </p>
             <h1
               className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6"
               style={{ fontFamily: "'Cormorant', serif" }}
@@ -578,13 +577,11 @@ export default function Index() {
       <footer className="py-10 px-4 md:px-8" style={{ backgroundColor: "hsl(20, 30%, 18%)", color: "white" }}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <img
-              src="https://cdn.poehali.dev/projects/5f2a3daf-7537-4d09-ac43-1e03a1ff4102/bucket/8a60cd3a-241e-4ed6-842e-549324275849.jpeg"
-              alt="Столовая Гранат"
-              className="h-12 w-auto object-contain rounded-lg"
-              style={{ filter: "brightness(0) invert(1)" }}
-            />
-            <p className="text-xs" style={{ fontFamily: "'Golos Text', sans-serif", color: "rgba(255,255,255,0.45)" }}>Домашняя кухня с 2010 года</p>
+            <span className="text-2xl">🍽️</span>
+            <div>
+              <p className="font-bold text-xl" style={{ fontFamily: "'Cormorant', serif" }}>Столовая Гранат</p>
+              <p className="text-xs" style={{ fontFamily: "'Golos Text', sans-serif", color: "rgba(255,255,255,0.45)" }}>Домашняя кухня с 2010 года</p>
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-6 justify-center">
